@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Aplikasi Film',
       theme: ThemeData(
     scaffoldBackgroundColor: Color(0xFFFFF1F3), // pastel pink background
